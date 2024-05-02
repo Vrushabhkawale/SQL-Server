@@ -1,0 +1,15 @@
+create database Demo
+go
+use Demo
+go
+create table Auser
+(
+Id int primary key identity,
+Name varchar (50) not null,
+Email varchar(20),
+Gender varchar(20),
+)
+go
+insert into Auser values ('Vrushabh','vrushabh@123Gmail.com','Male'),('Suhas','Suhas@123Gmail.com','Male')
+go
+select * from Auser
